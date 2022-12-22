@@ -1,0 +1,5 @@
+const readline = require('node:readline/promises');
+
+//Export redline module//
+
+export.redline = redline
