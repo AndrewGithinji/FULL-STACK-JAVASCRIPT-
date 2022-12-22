@@ -1,4 +1,4 @@
-Convert this JavaScript project to a TypeScript Project. Use Explicit typing on all mutable variables, function parameters, and function return types.
+Convert this JavaScript project 2 to a TypeScript Project. Use Explicit typing on all mutable variables, function parameters, and function return types.
 
 View the package.json file to see the available build script.
 

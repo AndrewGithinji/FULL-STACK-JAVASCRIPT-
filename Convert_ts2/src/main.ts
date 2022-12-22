@@ -1,4 +1,4 @@
-// Import readline module for getting input from console
+// Imports readline module for getting input from console
 // Find more here: https://nodejs.org/api/readline.html#readline_readline
 const readline = require('readline');
 
