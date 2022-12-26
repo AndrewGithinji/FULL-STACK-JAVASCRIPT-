@@ -1,0 +1,21 @@
+{
+  "name": "testing_jasmine",
+  "version": "1.0.0",
+  "description": "Unit Testing with Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "jasmine": "jasmine",
+    "build": "npx tsc",
+    "test": "npm run build && npm run jasmine"
+  },
+  "author": "Andrew Githinji",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.11.17",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^7.0.0"
+  }
+}
