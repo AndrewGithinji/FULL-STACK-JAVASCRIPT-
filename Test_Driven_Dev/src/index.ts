@@ -8,10 +8,18 @@ import axios from 'axios';
  */
 
 /** Create getCountry Function here */
+async function getCountry(regionalbloc: string): Promise<any[]> {
+  const getApi = await axios(
+    `https://restcountries.com/v2/regionalbloc/${regionalbloc}`
+  );
+  const data = getApi.data[0];
+  return {
+    capital: data.capital,
+    region: data.region,
+    numericCode: data.numericCode
+  };
+}
 
-function getCountry() {}
-
-const countries = getCountry
 /** Create a test for this getRegion function */
 async function getRegionCountries(regionalbloc: string): Promise<any[]> {
   const getApi = await axios(
@@ -27,7 +35,7 @@ async function getRegionCountries(regionalbloc: string): Promise<any[]> {
 
 /** Create getRegionCapitals function here */
 
-function getRegionCapitals() {}
+function getRegionCapitals() { }
 
 const RegionCapitals = getRegionCapitals
 
